@@ -1,0 +1,35 @@
+Laravel Course For Beginners: By Brad on Udemy (Milan Malani's A/C):
+https://www.udemy.com/course/lets-learn-laravel-a-guided-path-for-beginners/learn/lecture/34207654#overview
+
+Local Folder Path: D:\xampp\htdocs\laravel_projects\Laravel_Beginners_Course
+
+Autoloading & Namespaces in PHP: https://www.daggerhartlab.com/autoloading-namespaces-in-php/
+
+HTML Templates Git URL: https://github.com/LearnWebCode/laravel-course
+
+Not Loading CSS File In Laravel From public folder : https://stackoverflow.com/questions/66077353/not-loading-css-file-in-laravel-from-public-folder
+  - Try using PHP built-in webserver instead of artisan server php -S localhost:8000 -t public/ (run this command in the root of your Laravel project).
+
+Local App URL: http://localhost:8000/ or http://127.0.0.1:8000/
+  
+Local DB URL: http://localhost/phpmyadmin/sql.php?db=ourlaravelapp&table=users&pos=0
+
+28. What is Markdown? [Markdown is only supported in laravel v10.x and this version work with PHP 8 only]
+	=> 22-markdown.zip
+	=>  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+
+
+
+<h1>This is best</h1>
+<a href="#">This is a link</a>
+<b>Good Evening...</b>
+<h3><i>Bhavna HTML content</i></h3>
+
+// Added by BGU
+
+
+if ($postId->user_id === auth()->user()->id) {
+            return 'You are the author';
+        }
+        return 'You are not the author';
