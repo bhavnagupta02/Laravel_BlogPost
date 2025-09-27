@@ -1,5 +1,5 @@
-# Laravel_Learning
-This repository contains my Laravel basics learning code, based on a Udemy course.
+# Laravel_BlogPost
+This repository contains a Laravel project with user authentication, profile management, photo uploads, and blog post CRUD operations.
 
 # Laravel version: 7.29
 # Laravel Project: ourmainapp
